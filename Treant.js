@@ -18,7 +18,7 @@
  */
 
 import Raphael from 'raphael'
-import $ from 'jquery'
+import jQuery from 'jquery'
 import './Treant.css'
 (function() {
 	// Polyfill for IE to use startsWith
@@ -2149,7 +2149,7 @@ import './Treant.css'
 	/**
 	 * Chart constructor.
 	 */
-	var Treant = function( jsonConfig, callback, jQuery ) {
+	var Treant = function( jsonConfig, callback) {
 		if ( jsonConfig instanceof Array ) {
 			jsonConfig = JSONconfig.make( jsonConfig );
 		}
